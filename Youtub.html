@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtub</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+       header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+       }
+       header span{
+        font-size: 18px;
+       }
+       .search-bar{
+        width: 500px;
+       }
+       section{
+        display: grid;
+        grid-template-columns: 1fr 11fr;
+        margin-top: 40px;
+       }
+       nav button{
+        text-align: center;
+        margin-bottom: 40px;
+        width: 120px;
+        font-size: 18px;
+        border: none;
+        background: none;
+       }
+       nav button:hover{
+        border: 1px solid gray;
+       }
+       main{
+        padding-left: 40px;
+        margin: 1px 5px;
+       }
+       .categories{
+        font-size: 20px;
+        margin-bottom: 20px;
+       }
+       .categories span{
+        background-color: rgb(228, 216, 216);
+        margin-left: 30px;
+        border-radius: 30px;
+        color: white;
+        padding: 5px;
+       }
+       .categories span:first-child{
+        background-color: black;
+       }
+       .main-row{
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+        margin-left:6px;
+        column-gap: 10px;
+       }
+    </style>
+</head>
+<body class="container-fluid">
+    <header>
+        <div>
+        <span class="bi bi-justify"></span>
+        <img src="./Public/Youtub.logo.png" width="130">
+        </div>
+        <div>
+          <div class="search-bar">
+          <div class="input-group">
+            <input type="text" placeholder="search" size="45">
+            <button class="btn btn-outline-danger input-group-text">
+                <span class="bi bi-search"></span>
+            </button>
+            <span class="bi bi-mic-fill" ms-4></span>
+          </div>
+         </div>
+        </div>
+        <div>
+        <button class="btn btn-outline-dark">
+        <span class="bi bi-person-circle"></span>
+        SIGN IN
+        </button>
+        </div>
+    </header>
+    <section>
+        <nav>
+            <button>
+                <span class="bi bi-house-fill"></span>
+                <div>Home</div>
+                </button>
+            <button>
+                <span class="bi bi-compass"></span>
+                 <div>Explore</div>
+            </button>
+            <button>
+                <span class="bi bi-collection-play"></span>
+                <div>subscriptions</div>
+            </button>
+            <button>
+                <span class="bi bi-clock-history"></span>
+                <div>watch later</div>
+            </button>
+        </nav>
+        <main>
+            <div class="categories">
+            <span>All</span>
+            <span>Thoughts</span>
+            <span>Computer programing</span>
+            <span>Music</span>
+            <span>Motivation</span>
+            <span>TED</span>
+            <span>Mixed</span>
+            <!-- <span>Comedy</span>
+            <span>SSC CGL</span> -->
+            </div>
+            <div class="main-row">
+            <div>
+               <iframe src="https://www.youtube.com/embed/wS1hPSCXU9g"></iframe>
+                <p>Success Story Of Suhani Shah</p>
+            </div>
+
+            <div>
+               <iframe src="https://www.youtube.com/embed/0D_qkHjUu9U" ></iframe>
+                <p>'Kal Ho Naa Ho' पे Pawandeep <br>
+                     ने दिया Melodious Performance <br>
+                    | Indian Idol Season 12</p>
+            </div>
+             
+            <div>
+                <iframe src="https://www.youtube.com/embed/sKvMxZ284AA&t=12s"></iframe>
+                 <p>How "SHE" became an IAS officer | Surabhi Gautam | TEDxRGPV</p>
+             </div>
+
+             <div>
+                <iframe src="https://www.youtube.com/embed/9Q7Zl3OI4us"></iframe>
+                 <p>The 3 Myths of the Indian Education System <br>
+                    | Vinay Menon <br>
+                    | TEDxThiruvananthapuram</p>
+             </div>
+
+             <div>
+                <iframe src="https://www.youtube.com/embed/sHWenPwaJcQ"></iframe>
+                 <p>Indian Idol Season 13 <br>
+                    | The Dream Debut | Ep 7 | <br>
+                    Full Episode | 1 Oct 2022</p>
+             </div>
+
+             <div>
+                <iframe src="https://www.youtube.com/embed/mB5bSVQPZEc"></iframe>
+                 <p>Top Headlines Of The Day: <br>
+                     October 11, 2022</p>
+             </div>
+
+             <div>
+                <iframe src="https://www.youtube.com/embed/-e_secPfW7U"></iframe>
+                 <p>🇮🇳 India - Minister for External <br>
+                     Affairs Addresses United Nations <br>
+                      General Debate (English) | #UNGA</p>
+             </div>
+
+             <div>
+                <iframe src="https://www.youtube.com/embed/HZkR8malxGA"></iframe>
+                 <p>Tu Meri Heer Main Tera Ranjha <br>
+                    | अजीब Love Story | <br>
+                     Rito Riba New Love Songrito riba indian idolrito</p>
+             </div>
+
+             <div>
+                <iframe src="https://www.youtube.com/embed/Qvd-I7lTecI"></iframe>
+                 <p>Baarish Yaariyan Full <br>
+                     Video Song (Official) <br>
+                     | Himansh Kohli, Rakul Preet</p>
+             </div>
+
+             </div>
+            </div>
+        </main>
+    </section>
+</body>
+</html>
