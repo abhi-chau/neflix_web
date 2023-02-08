@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        section{
+            height:400px;
+            display:grid;
+            grid-template-columns: 3fr 6fr 3fr;
+        }
+        header{
+           background-color: black;
+           color:white;
+           text-align: center;
+           font-size: 18px;
+           padding: 10px;
+        }
+        nav div{ 
+            border: 1px solid black;
+            padding:5px;
+            width: 130px;
+            background-color: black;
+            color:white;
+            font-size: 18px;
+            margin-top: 20px;
+            border-radius: 10px;
+            transition: 2s;
+            }
+            nav div:hover{
+                background-color: yellow;
+                color: red;
+                font-size: 24px;
+                cursor: grab;
+                transition: 2s;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <span class="bi bi-cart"></span>Shopping
+    </header>
+    <section>
+        <nav>
+            <div><span class="bi bi-cart"></span>Home</div>
+            <div>About</div>
+            <div>Shop</div>
+            <div>Blog</div>
+            <div>Contact</div>
+        </nav>
+        <main>
+            some content as entiry point.
+        </main>
+        <aside>
+            some ads.
+        </aside>
+    </section>
+    <footer>
+        &copy ;copyright 2022
+    </footer>
+</body>
+</html>

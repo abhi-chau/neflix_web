@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+<style>
+    section{
+      height: 400px;
+      display: grid;
+      grid-template-columns: 3fr 6fr 3fr;
+    }
+    header{
+        background-color: black;
+        color:white;
+        text-align:center ;
+        font-size: 25px;
+        padding: 10px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+    }
+    .brand{
+        font-size: 22px;
+        font-weight: bold;
+
+    }
+    menu div{
+        font-size: 18px;
+        margin-top: 10px;
+        border:1px solid black;
+        padding:3px;
+        width:150px;
+    }
+    summary{
+        font-size: 22px;
+    }
+    nav{
+        height: 400px;
+        overflow: auto;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <span class="bi bi-cart">Shopping</span>
+    </header>
+    <section>
+        <nav>
+            <div calss="brand">Shopping</div>
+            <details open>
+                <summary>Home</summary>
+                <menu>
+                    <div>Logins</div>
+                    <div>Offers</div>
+                </menu>
+                </details>
+                <details> 
+              <summary>Electronics</summary>
+              <menu>
+                <div>Televisions</div>
+                <div>Watches</div>
+                <div>Mobile</div>
+               </menu>
+              </details>
+              <details>
+                <summary>Footwear</summary>
+                <menu>    
+                  <div>causuals</div>
+                   <div>Boots</div>
+                   <div>Sneakers</div>
+                </menu>
+                </details>
+                </nav>
+                <main>
+                    some content as entry point
+                </main>
+                <aside>
+                    some ads.
+                </aside>
+                </section>
+                <footer>
+                    &copy ;copyright 2022 
+                </footer>
+</body>
+</html>
